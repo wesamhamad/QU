@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مسابقة الابتكار - جامعة القصيم</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include in <head> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Tajawal', sans-serif;
+      }
+    </style>
+    
+  </head>
+  <body class="bg-[#F8F9FA] text-[#212529]">
+
+    <header class="relative overflow-hidden bg-gradient-to-br from-[#003B71] to-[#00A9AD]  text-white py-20 px-4">
+        <!-- Background pattern overlay -->
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/diagmonds.png')] opacity-10"></div>
+      
+        <!-- Main container -->
+        <div class="relative z-10 max-w-4xl mx-auto text-center">
+          <img
+            src="https://www.qu.edu.sa/wp-content/uploads/2025/02/qu-white-logo.svg"
+            alt="Qassim University Logo"
+            class="mx-auto mb-8 w-130 md:w-130 mb-14"
+          />
+      
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-white">
+            جائزة جامعة القصيم للابتكار المفتوح
+          </h1>
+      
+          <p class="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+            فرصتك للمساهمة في تطوير الخدمات الجامعية وتحسين العمليات الإدارية والرقمية من خلال أفكارك الإبداعية
+          </p>
+        </div>
+      </header>
+
+    <section class="relative py-20 px-6 bg-gradient-to-bl from-white to-[#F1FAFB] text-right overflow-hidden">
+        <!-- Decorative Gradient Circle -->
+        <div class="absolute -top-20 -left-20 w-96 h-96 bg-[#00A9AD]/10 rounded-full blur-3xl opacity-40"></div>
+      
+        <div class="max-w-5xl mx-auto" data-aos="fade-up">
+          <!-- Heading -->
+          <div class="mb-10">
+            <h2 class="text-4xl font-extrabold text-[#00A9AD] mb-4 leading-tight">
+              عن المسابقة
+            </h2>
+            <div class="h-1 w-20 bg-[#00A9AD] rounded-full"></div>
+          </div>
+      
+          <!-- Body Text -->
+          <div class="bg-white/90 backdrop-blur-xl shadow-xl rounded-3xl p-8 lg:p-10 space-y-6">
+            <p class="text-gray-800 text-lg leading-relaxed">
+              تعلن جامعة القصيم عن "مسابقة الابتكار المفتوحة" لعام 2024 لاستقبال الأفكار والحلول الإبداعية من جميع أفراد المجتمع لتطوير الخدمات الجامعية وتحسين العمليات الإدارية والرقمية.
+            </p>
+            <p class="text-gray-800 text-lg leading-relaxed">
+              تهدف المسابقة إلى إشراك الطلاب، الموظفين، المتدربين، وأفراد المجتمع في رسم مستقبل الجامعة من خلال تبني وتنفيذ الحلول الفعّالة.
+            </p>
+      
+            <!-- أهداف المسابقة -->
+            <div>
+              <h3 class="text-[#00A9AD] text-xl font-bold mb-4">أهداف المسابقة:</h3>
+              <ul class="space-y-4 text-gray-700 text-base">
+                <li class="flex items-start gap-3">
+                  <span class="mt-1 text-[#00A9AD]">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  استقطاب الأفكار الإبداعية من جميع الفئات.
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="mt-1 text-[#00A9AD]">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  تمكين المجتمع الجامعي والعام من المشاركة في التطوير المستمر.
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="mt-1 text-[#00A9AD]">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  تبني الحلول المتميزة وتطبيقها في الجامعة.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+    <section class="py-20 bg-[#F8F9FA] px-4">
+        <div class="max-w-6xl mx-auto text-right">
+          <!-- Title -->
+          <h2 class="text-3xl font-extrabold text-[#00A9AD] mb-12 text-center" data-aos="fade-up">
+            المجالات
+          </h2>
+      
+          <!-- Cards -->
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+            
+            <!-- Card 1 -->
+            <div
+              class="group bg-white rounded-2xl shadow-md p-6 transition transform hover:shadow-xl hover:-translate-y-1 border-t-4 border-[#00A9AD]"
+              data-aos="zoom-in-up"
+              data-aos-delay="100"
+            >
+              <div class="flex items-start gap-4">
+                <div class="bg-[#E3F6F8] text-[#00A9AD] p-2 rounded-full">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 7h18M3 12h18M3 17h18"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-[#00A9AD] text-lg mb-2">تحسين الإجراءات الإدارية أو التقنية</h3>
+                  <p class="text-gray-600 text-sm leading-relaxed">تقديم حلول مبتكرة لتبسيط الإجراءات وتحسين كفاءة العمليات التقنية.</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div
+              class="group bg-white rounded-2xl shadow-md p-6 transition transform hover:shadow-xl hover:-translate-y-1 border-t-4 border-[#00A9AD]"
+              data-aos="zoom-in-up"
+              data-aos-delay="200"
+            >
+              <div class="flex items-start gap-4">
+                <div class="bg-[#E3F6F8] text-[#00A9AD] p-2 rounded-full">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M4 6h16M4 12h8m-8 6h16"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-[#00A9AD] text-lg mb-2">تطوير الخدمات الطلابية أو الأكاديمية</h3>
+                  <p class="text-gray-600 text-sm leading-relaxed">ابتكار حلول لتحسين تجربة الطلاب والخدمات التعليمية.</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div
+              class="group bg-white rounded-2xl shadow-md p-6 transition transform hover:shadow-xl hover:-translate-y-1 border-t-4 border-[#00A9AD]"
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
+            >
+              <div class="flex items-start gap-4">
+                <div class="bg-[#E3F6F8] text-[#00A9AD] p-2 rounded-full">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-[#00A9AD] text-lg mb-2">تعزيز تجربة المستفيد</h3>
+                  <p class="text-gray-600 text-sm leading-relaxed">تحسين تجربة المستفيدين من خدمات الجامعة.</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 4 -->
+            <div
+              class="group bg-white rounded-2xl shadow-md p-6 transition transform hover:shadow-xl hover:-translate-y-1 border-t-4 border-[#00A9AD]"
+              data-aos="zoom-in-up"
+              data-aos-delay="400"
+            >
+              <div class="flex items-start gap-4">
+                <div class="bg-[#E3F6F8] text-[#00A9AD] p-2 rounded-full">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M11 5h10M11 9h7M11 13h4M4 5h.01M4 9h.01M4 13h.01M4 17h16"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-[#00A9AD] text-lg mb-2">ابتكار حلول رقمية تدعم التحول الرقمي</h3>
+                  <p class="text-gray-600 text-sm leading-relaxed">حلول تقنية مبتكرة تساهم في التحول الرقمي الذكي.</p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+    <section class="bg-white py-20 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 text-right">
+      
+          <!-- الشروط -->
+          <div data-aos="fade-left">
+            <h2 class="text-3xl font-extrabold text-[#00A9AD] mb-6">الشروط</h2>
+            <ul class="space-y-4 text-base leading-loose text-gray-700">
+              <li class="flex items-start gap-3">
+                <span class="mt-1 text-[#00A9AD]">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                أن تكون الفكرة أصلية وغير منفذة سابقاً في الجامعة.
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1 text-[#00A9AD]">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                قابلة للتطبيق وذات أثر ملموس.
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1 text-[#00A9AD]">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                إكمال جميع بيانات نموذج المشاركة بدقة.
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1 text-[#00A9AD]">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                يمكن التقديم بشكل فردي أو جماعي.
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1 text-[#00A9AD]">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                يحق للجامعة استبعاد أي مشاركة مخالفة للشروط أو الأنظمة.
+              </li>
+            </ul>
+          </div>
+      
+          <!-- معايير التقييم -->
+          <div data-aos="fade-right">
+            <h2 class="text-3xl font-extrabold text-[#00A9AD] mb-6">معايير التقييم</h2>
+            <div class="space-y-5 text-sm">
+              <!-- Criteria Card -->
+              <div class="bg-[#F8F9FA] p-5 rounded-xl shadow-md flex gap-4 items-start" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-[#00A9AD] font-bold text-xl">1</div>
+                <div>
+                  <h3 class="font-semibold text-[#00A9AD] mb-1">ارتباط الفكرة بأهداف ومجالات المسابقة</h3>
+                  <p class="text-gray-600">مدى اتساق الفكرة للمجالات المحددة وارتباطها بالأهداف.</p>
+                </div>
+              </div>
+              <div class="bg-[#F8F9FA] p-5 rounded-xl shadow-md flex gap-4 items-start" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-[#00A9AD] font-bold text-xl">2</div>
+                <div>
+                  <h3 class="font-semibold text-[#00A9AD] mb-1">مستوى الابتكار والإبداع</h3>
+                  <p class="text-gray-600">تميّز الفكرة وتفردها عن الحلول التقليدية.</p>
+                </div>
+              </div>
+              <div class="bg-[#F8F9FA] p-5 rounded-xl shadow-md flex gap-4 items-start" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-[#00A9AD] font-bold text-xl">3</div>
+                <div>
+                  <h3 class="font-semibold text-[#00A9AD] mb-1">وضوح الأثر المتوقع وقابلية التطبيق</h3>
+                  <p class="text-gray-600">إمكانية تنفيذ الفكرة بوضوح وتحقيق نتائج ملموسة.</p>
+                </div>
+              </div>
+              <div class="bg-[#F8F9FA] p-5 rounded-xl shadow-md flex gap-4 items-start" data-aos="fade-up" data-aos-delay="400">
+                <div class="text-[#00A9AD] font-bold text-xl">4</div>
+                <div>
+                  <h3 class="font-semibold text-[#00A9AD] mb-1">الكفاءة من حيث التكلفة والموارد</h3>
+                  <p class="text-gray-600">مدى تناسب الفكرة مع الموارد والتكاليف المطلوبة.</p>
+                </div>
+              </div>
+              <div class="bg-[#F8F9FA] p-5 rounded-xl shadow-md flex gap-4 items-start" data-aos="fade-up" data-aos-delay="500">
+                <div class="text-[#00A9AD] font-bold text-xl">5</div>
+                <div>
+                  <h3 class="font-semibold text-[#00A9AD] mb-1">مساهمة الفكرة في تحسين تجربة المستفيد</h3>
+                  <p class="text-gray-600">أثر الفكرة على تجربة المستفيدين من خدمات الجامعة.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+      <section class="bg-[#F8F9FA] py-20 px-4" dir="rtl">
+        <div class="max-w-6xl mx-auto text-center" data-aos="fade-up">
+      
+          <!-- Section Title -->
+          <h2 class="text-3xl font-extrabold text-[#00A9AD] mb-12">الجوائز</h2>
+      
+          <!-- Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+      
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1" data-aos="zoom-in" data-aos-delay="100">
+              <div class="w-14 h-14 mx-auto bg-[#00A9AD] flex items-center justify-center rounded-full mb-4">
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 1.343-3 3h6a3 3 0 00-3-3zM12 16a3 3 0 100-6 3 3 0 000 6zM4 6h16M4 18h16" />
+                </svg>
+              </div>
+              <h3 class="font-bold text-[#00A9AD] text-lg mb-2">جوائز مالية</h3>
+              <p class="text-gray-600 leading-relaxed">جوائز مالية قيمة لأفضل الأفكار الفائزة في المسابقة.</p>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1" data-aos="zoom-in" data-aos-delay="200">
+                <div class="w-14 h-14 mx-auto bg-[#00A9AD] flex items-center justify-center rounded-full mb-4">
+                  <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6M5 8h14M5 8v12a1 1 0 001 1h12a1 1 0 001-1V8m-14 0V6a1 1 0 011-1h12a1 1 0 011 1v2" />
+                  </svg>
+                </div>
+                <h3 class="font-bold text-[#00A9AD] text-lg mb-2">شهادات تقدير</h3>
+                <p class="text-gray-600 leading-relaxed">شهادات تقدير رسمية من الجامعة للمشاركين الفائزين.</p>
+              </div>
+      
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1" data-aos="zoom-in" data-aos-delay="300">
+              <div class="w-14 h-14 mx-auto bg-[#00A9AD] flex items-center justify-center rounded-full mb-4">
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3a1 1 0 011 0l6 3-6 3-6-3 6-3zM5 10v6a2 2 0 002 2h10a2 2 0 002-2v-6" />
+                </svg>
+              </div>
+              <h3 class="font-bold text-[#00A9AD] text-lg mb-2">تبني الأفكار</h3>
+              <p class="text-gray-600 leading-relaxed">تبني وتطبيق الحلول الفائزة فعلياً في الجامعة.</p>
+            </div>
+      
+            <!-- Card 4 -->
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1" data-aos="zoom-in" data-aos-delay="400">
+              <div class="w-14 h-14 mx-auto bg-[#00A9AD] flex items-center justify-center rounded-full mb-4">
+                <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7M12 3v2m0 14v2m9-9h2M3 12H1m15.364-6.364l1.414 1.414M5.636 18.364l1.414-1.414" />
+                </svg>
+              </div>
+              <h3 class="font-bold text-[#00A9AD] text-lg mb-2">تسليط الضوء</h3>
+              <p class="text-gray-600 leading-relaxed">تسليط الضوء على الفائزين وشخصياتهم عبر منصات الجامعة.</p>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+<!-- timelien -->
+<section class="py-16 px-4" dir="rtl">
+    <div class="max-w-4xl mx-auto">
+      <h2
+        class="text-3xl font-extrabold text-[#00A9AD] mb-12 text-center"
+        data-aos="fade-up"
+      >
+        الجدول الزمني للمسابقة
+      </h2>
+
+      <div class="relative border-e-4 border-[#00A9AD]/20">
+        <!-- Step 1 -->
+        <div class="mb-10 ms-4" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="absolute w-6 h-6 bg-[#00A9AD] rounded-full -end-3 border-4 border-white"
+          ></div>
+          <div class="bg-white shadow-md rounded-md p-5">
+            <span
+              class="text-xs text-white bg-[#00A9AD] px-2 py-1 rounded-md inline-block mb-2"
+              >٤ أغسطس ٢٠٢٤</span
+            >
+            <h3 class="font-semibold text-[#00A9AD] mb-1">
+              بدء استقبال المشاركات
+            </h3>
+            <p class="text-sm text-gray-600">
+              بدء استقبال الأفكار والحلول الإبداعية من جميع المشاركين.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="mb-10 ms-4" data-aos="fade-up" data-aos-delay="200">
+          <div
+            class="absolute w-6 h-6 bg-gray-600 rounded-full -end-3 border-4 border-white"
+          ></div>
+          <div class="bg-white shadow-md rounded-md p-5">
+            <span
+              class="text-xs text-white bg-gray-600 px-2 py-1 rounded-md inline-block mb-2"
+              >١٨ أغسطس ٢٠٢٤</span
+            >
+            <h3 class="font-semibold text-gray-700 mb-1">
+              انتهاء استقبال المشاركات
+            </h3>
+            <p class="text-sm text-gray-600">
+              موعد تسليم الأفكار والمشاركة في المسابقة.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="mb-10 ms-4" data-aos="fade-up" data-aos-delay="300">
+          <div
+            class="absolute w-6 h-6 bg-[#00A9AD] rounded-full -end-3 border-4 border-white"
+          ></div>
+          <div class="bg-white shadow-md rounded-md p-5">
+            <span
+              class="text-xs text-white bg-[#00A9AD] px-2 py-1 rounded-md inline-block mb-2"
+              >١ سبتمبر ٢٠٢٤</span
+            >
+            <h3 class="font-semibold text-[#00A9AD] mb-1">إعلان النتائج</h3>
+            <p class="text-sm text-gray-600">
+              إعلان الأفكار الفائزة وأصحابها.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+<!-- التسجيل Section -->
+<section class="py-20 bg-gradient-to-br from-[#F2F6F7] to-white" dir="rtl">
+    <div class="max-w-4xl mx-auto bg-white/90 backdrop-blur-md shadow-2xl rounded-2xl p-8 md:p-12" data-aos="zoom-in-up">
+      
+      <!-- Heading -->
+      <h2 class="text-center text-3xl font-extrabold text-[#00A9AD] mb-4">التسجيل</h2>
+      <p class="text-center text-gray-600 text-base mb-8">شارك الآن بمشاركتك المبتكرة</p>
+  
+      <!-- Form -->
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-6 text-right">
+  
+        <input type="text" required placeholder="الاسم الكامل *"
+          class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full transition" />
+  
+        <input type="email" required placeholder="البريد الإلكتروني *"
+          class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full transition" />
+  
+        <input type="tel" placeholder="رقم الجوال"
+          class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full transition" />
+  
+        <select required
+          class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full text-gray-700">
+          <option disabled selected>اختر الفئة</option>
+          <option>طالب</option>
+          <option>عضو هيئة تدريس</option>
+          <option>موظف</option>
+          <option>زائر</option>
+        </select>
+  
+        <input type="text" placeholder="عنوان الفكرة"
+          class="md:col-span-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full transition" />
+  
+        <textarea maxlength="1000" rows="4" placeholder="ملخص الفكرة (أقصى 200 كلمة)"
+          class="md:col-span-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00A9AD] w-full transition"></textarea>
+  
+        <input type="file"
+          class="md:col-span-2 p-3 border border-gray-300 rounded-lg w-full file:mr-2 file:bg-[#E0F7F8] file:border-0 file:rounded file:px-4 file:py-2 file:text-[#00A9AD] file:font-semibold file:text-sm transition" />
+  
+        <div class="md:col-span-2 text-center mt-4">
+          <button type="submit"
+            class="bg-[#00A9AD] hover:bg-[#008c8f] text-white px-8 py-3 rounded-lg font-semibold transition duration-300">
+            إرسال المشاركة
+          </button>
+          <p class="text-sm text-gray-500 mt-3">يمكن إرفاق ملفات .PDF أو Word أو PowerPoint</p>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <!-- الأسئلة الشائعة Section -->
+  <section class="py-20 bg-white" dir="rtl">
+    <div class="max-w-3xl mx-auto" data-aos="fade-up">
+      <h2 class="text-center text-3xl font-extrabold text-[#00A9AD] mb-10">الأسئلة الشائعة</h2>
+  
+      <div class="space-y-4">
+        <!-- FAQ Item -->
+        <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden transition-all duration-300">
+          <button onclick="toggleFAQ(this)"
+            class="w-full text-right px-6 py-4 font-semibold text-[#00A9AD] flex justify-between items-center focus:outline-none">
+            <span>كيف أشارك في المسابقة؟</span>
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="faq-answer px-6 pb-4 hidden text-sm text-gray-600">
+            من خلال تعبئة النموذج في قسم التسجيل وإرسال فكرتك.
+          </div>
+        </div>
+  
+        <!-- FAQ Item -->
+        <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden transition-all duration-300">
+          <button onclick="toggleFAQ(this)"
+            class="w-full text-right px-6 py-4 font-semibold text-[#00A9AD] flex justify-between items-center focus:outline-none">
+            <span>هل يمكن المشاركة كفريق؟</span>
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="faq-answer px-6 pb-4 hidden text-sm text-gray-600">
+            نعم، المشاركة الفردية والجماعية مسموحة.
+          </div>
+        </div>
+  
+        <!-- FAQ Item -->
+        <div class="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden transition-all duration-300">
+          <button onclick="toggleFAQ(this)"
+            class="w-full text-right px-6 py-4 font-semibold text-[#00A9AD] flex justify-between items-center focus:outline-none">
+            <span>ما هي معايير اختيار الفائزين؟</span>
+            <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="faq-answer px-6 pb-4 hidden text-sm text-gray-600">
+            تشمل معايير الإبداع، الجودة، الأثر، والجدوى.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ Toggle Script -->
+  <script>
+    function toggleFAQ(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector("svg");
+  
+      if (content.classList.contains("hidden")) {
+        content.classList.remove("hidden");
+        content.classList.add("block");
+        icon.classList.add("rotate-180");
+      } else {
+        content.classList.add("hidden");
+        content.classList.remove("block");
+        icon.classList.remove("rotate-180");
+      }
+    }
+  </script>
+
+       <!-- JS: AOS + FAQ Toggle -->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+         AOS.init({ duration: 800, once: true });
+   
+         function toggleFAQ(button) {
+           const content = button.nextElementSibling;
+           content.classList.toggle('hidden');
+         }
+       </script>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+  </body>
+</html>
+    
+  
